@@ -1,0 +1,54 @@
+﻿@model List<ProtechTeste.Domain.Objects.Funcionario>
+
+@{
+    ViewBag.Title = "Funcionários";
+}
+
+<h2>Funcionários</h2>
+
+<p>
+    @Html.ActionLink("Novo Funcionário", "Create")
+</p>
+
+@if (Model.Count > 0)
+{
+    <table id="tabela" class="table table-borderless table-striped table-earning">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Data Nascimento
+            </th>
+            <th>
+                Experiência
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataNascimento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExperienciaTotal)
+                </td>
+                <td>
+                    @Html.ActionLink("Excluir", "Excluir", new { Id = item.Id }) |
+                    @Html.ActionLink("Experiência", "Experiencia", new { Id = item.Id }) |
+                    @Html.ActionLink("Formação", "Formacao", new { Id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    <spam>Nenhum regitro localizado!</spam>
+}

@@ -1,0 +1,45 @@
+{
+  "Nome": "Seu Nome",
+  "DataNascimento": "01-01-2018",
+  "Formacao": [
+    {
+      "Curso": "Curso 1",
+      "Status": "Concluido/Em Andamento/Trancado",
+      "DataConclusao": "12-12-2019 / 01-01-2014" /* Data prevista caso em andamento*/ 
+    },
+    {
+      "Curso": "Curso 2",
+      "Status": "Concluido/Em Andamento/Trancado",
+      "DataConclusao": "12-12-2019 / 01-01-2014"
+    }
+  ],
+  "ExperienciaTotal": 10,
+  "Experiencia": [
+    {
+      "Tecnologia": "c#",
+      "TempoExperiencia": 1, /* Em anos */
+      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+    },
+    {
+      "Tecnologia": "WebAPI",
+      "TempoExperiencia": 1, 
+      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+    }
+  ],
+    "ExperienciaEmpresas": [
+    {
+      "Empresa": "EmpresaX",
+      "Cargo": "Dev Junior",
+      "DataInicio":"01-01-2010",
+      "DataFim":"01-01-2012", /* Data atual caso continue na empresa */
+      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+    },
+    {
+      "Empresa": "EmpresaX",
+      "Cargo": "Dev Junior",
+      "DataInicio":"01-01-2010",
+      "DataFim":"01-01-2012", /* Data atual caso continue na empresa */
+      "DetalheExperiencia": "Trabalhei em projeto XYZ, atuando como/responsavel por..."
+    }
+  ]
+}

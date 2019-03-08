@@ -1,0 +1,5 @@
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Domain\bin\Debug\ProtechTeste.Domain.dll
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Domain\bin\Debug\ProtechTeste.Domain.pdb
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Domain\obj\Debug\ProtechTeste.Domain.dll
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Domain\obj\Debug\ProtechTeste.Domain.pdb
+C:\Users\thiago_darlei\Documents\Visual Studio 2015\Projects\ProtechTeste\ProtechTeste.Domain\obj\Debug\ProtechTeste.Domain.csprojResolveAssemblyReference.cache

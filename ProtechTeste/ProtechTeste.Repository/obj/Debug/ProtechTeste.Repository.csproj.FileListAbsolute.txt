@@ -1,0 +1,9 @@
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\bin\Debug\ProtechTeste.Repository.dll
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\bin\Debug\ProtechTeste.Repository.pdb
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\bin\Debug\Newtonsoft.Json.dll
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\bin\Debug\ProtechTeste.Domain.dll
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\bin\Debug\ProtechTeste.Domain.pdb
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\bin\Debug\Newtonsoft.Json.xml
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\obj\Debug\ProtechTeste.Repository.csprojResolveAssemblyReference.cache
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\obj\Debug\ProtechTeste.Repository.dll
+c:\users\thiago_darlei\documents\visual studio 2015\Projects\ProtechTeste\ProtechTeste.Repository\obj\Debug\ProtechTeste.Repository.pdb

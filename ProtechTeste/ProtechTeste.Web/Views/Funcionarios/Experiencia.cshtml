@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ProtechTeste.Domain.Objects.Experiencia>
+
+@{
+    ViewBag.Title = "Experiência";
+    var func = ViewBag.Funcionario;
+    var Id = ViewBag.FuncionarioId;
+}
+
+<h2>Experiência [@func]</h2>
+
+<p>
+    @Html.ActionLink("Nova Experiência", "NovaExperiencia", new { Id = Id})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tecnologia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TempoExperiencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DetalheExperiencia)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tecnologia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TempoExperiencia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DetalheExperiencia)
+        </td>        
+    </tr>
+}
+
+</table>
